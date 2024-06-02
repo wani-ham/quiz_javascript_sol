@@ -100,14 +100,14 @@
       function drawStars2(lines) {
         // TODO: drawStars2() 함수 내부 코드를 채워주세요.
         for(var i = 0; i< lines; i++) {
-          console.log('*'.repeat(i+1));
+          console.log(' '.repeat(lines-i)+'*'.repeat(i+1));
         }
       }
 
       function drawStars3(lines) {
         // TODO: drawStars3() 함수 내부 코드를 채워주세요.
         for(var i = 0; i < lines; i++) {
-          console.log(' '.repeat(lines-i-1) + '*'.repeat(i) + ' '.repeat(lines-i-1));
+          console.log(' '.repeat(lines-i-1) + '*'.repeat(2*i+1));
         }
       }
 
